@@ -34,16 +34,16 @@ h1 {
   position: static;
 }
 
-.navbar-brand,
+/*.navbar-brand,
 .nav-link,
 .navbar,
 .navbar-expand-lg,
 .navbar-dark,
-.bg-dark .fixed-top {
+.bg-dark, .fixed-top {
   background-color: #2e0e4b;
   text-align: center;
   color: white;
-  font-family: "Georgia", Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;*/
 }
 
 button {
@@ -159,4 +159,18 @@ footer {
 
 .headerrow {
   /*margin-top: 20px;*/
+}
+
+.space{
+  margin: 10px;
+}
+
+#portfolioblocks{
+  margin: 20px 0 20px 0;
+}
+
+
+#row1, #row2, #row3{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
