@@ -127,8 +127,8 @@ h3 {
 
 .icon {
   margin-top: 30px;
-  height: 20px;
-  width: 20px;
+  /*height: 20px;*/
+  width: 100% !important;
 }
 
 /*.icon:hover{
@@ -173,4 +173,10 @@ footer {
 #row1, #row2, #row3{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  #profileimage {
+    width: 100%;
+}
 }
